@@ -1,70 +1,79 @@
 <!DOCTYPE html>
-	<html>
-		<head>
+<html>
+<head>
+	<title>Bootstrap Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-			<meta charset="utf-8" lang="en">
-			<title>Adam Miller's Portfolio</title>
-			<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-			<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-		</head>
-
-	<body>
-		<div class="headerContainer">
-			<header>
-				<h1>Adam Miller</h1>
-				<ul>
-					<li><a href="index.html">About</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
-					<li><a href="contact.html" class="lastButton">Contact</a></li>
-				</ul>
-			</header>
-		</div>
-
-	
-		
-			<div class="bodyContainer">
-				<section>
-					<h2>About Me</h2>
-					
-					<img src="assets/images/adammiller.jpg" alt="Adam Miller" class="profileImage">
-					
-					<p>
-					I will be awesome at this!!!! !
-					Weeeeeeeeeeeee
-					</p>
-					
-				</section>
-
-
-				<aside>
-					<h2>Connect with Me</h2>
-					<div class="contactImg">
-						<a href="https://github.com/eelhead" target="_blank">
-							<img src="assets/images/GitHub.jpg" alt="GitHub">
-
-						</a>
-
-						<a href="https://www.linkedin.com/in/adam-miller-2734b849" target="_blank">
-							<img src="assets/images/LinkedIn.jpg" alt="LinkedIn">
-
-						</a>
-
-						<a href="https://stackoverflow.com/users/8679873/adam-miller" target="_blank">
-							<img src="assets/images/StackOverflow.jpg" alt="StackOverflow" class="lastImg">
-
-						</a>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+	<div class="row">
+		<nav class="navbar navbar-style">
+			<div class="container">
+				<div class="col-md-3">
+			      <a class="navbar-brand" href="#">Adam Miller</a>
+				</div>
+			      <ul class="nav navbar-nav navbar-right">
+			        <li><a href="index.html">About</a></li>
+			        <li><a href="portfolio.html">Portfolio</a></li>
+			        <li><a href="contact.html">Contact</a></li>
+			      </ul>
+			</div>
+		</nav>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+			<div class="panel panel-style">
+					<div class="panel-heading">
+					    <div class="page-header"><h2>About Me</h2>
+						</div>
+					 </div>
+				<div class="panel-body">
+				  	<div class="media-left">
+					    <a href="#">
+					      <img class="thumbnail-profile" src="assets/images/adammiller.jpg" alt="Adam Miller">
+					    </a>
 					</div>
-				</aside>
+				  <div class="media-body">
+				    <p class="text-wrap">Hello! My name is Adam Miller, I am currently learning to code :) .
+			          </p>
+			          <p>
+			          I am going to build awesome stuff loaded with sweet love! 
+			          </p>
+			          <p>
+			          I'm originally from NY now living in Phoenix 
+			          </p>
+			          <p>Feel free to <a href="contact.html">contact me</a> or clicking on one of my social profiles to learn a bit more about me.
+			          </p>
+				  </div>
+				</div>
 
 			</div>
-		
 
-		<!-- FOOTER -->
+			</div>
 
-		<div class="footer">
-			<p>&copy; Copyright 2017 Adam Miller</p>
+			<div class="col-md-4">
+				<div class="panel panel-style">
+					  <div class="panel-heading">
+					    <h3 class="page-header">Connect With Me</h3>
+					  </div>
+					  <div class="panel-body">
+					    <a href="#"><img src="assets/images/github.png" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="assets/images/linkedin.png" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="assets/images/stackoverflow.png" class="social" alt="Stack Overflow" /></a>
+					  </div>
+				</div>
+			</div>
 		</div>
-
-	</body>
-
+	</div>
+</body>
+<footer>
+	<div class=container>
+			Copyright &copy; Adam Miller
+	</div>
+</footer>
 </html>
